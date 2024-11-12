@@ -1,0 +1,10 @@
+Quiz 2: 
+State the four object-oriented principles. (25 points each)
+
+Encapsulation
+Polymorphism
+Inheritance
+Abstraction
+
+
+

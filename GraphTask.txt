@@ -1,0 +1,46 @@
+
+Task: Social Network Graph
+Scenario:
+You're tasked with creating a program to represent a simple social network using a graph.
+Requirements:
+1. Choose a Representation: Decide whether to use an adjacency matrix or an adjacency
+list to represent the social network. Consider the pros and cons of each and justify your
+choice.
+List - Pros: 
+Concise, Easy to read as a dev, 
+
+Cons: 
+Hard to read as a non-dev, hard to implement
+
+Matrix - Pros: 
+Easier to read as a non-dev, 
+Shows connections between nodes more clearly and easily
+Visualize easier
+Visualization may not be needed for this task
+
+Cons: 
+More space to hold 2d array
+
+2. Implement the Graph: Create a Graph class in Java with the following functionalities:
+o addVertex(String name): Adds a person (vertex) to the network.
+```java
+addVertex(String name){ // add a person(vertex) to the network
+    
+}
+```
+
+o addEdge(String person1, String person2): Adds a friendship connection
+(edge) between two people.
+```java
+addEdge(String person1, String person2){ // add a friendship connection between two people
+    
+}
+```
+o areFriends(String person1, String person2): Checks if two people are
+friends.
+o getFriends(String person): Returns a list of friends for a given person.
+3. Populate the Network: Add at least 5 people to your network and create some
+friendships between them.
+4. Test: Write code in the main method to test all the functionalities of your Graph class.
+For example, add some people, create friendships, check if two people are friends, and
+print the friends of a specific person.
